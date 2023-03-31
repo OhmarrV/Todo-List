@@ -1,0 +1,35 @@
+#to-do{
+    border: 5px solid black;
+    padding: 10px; 
+    margin: 0;
+}
+
+#todo-title{
+    padding: 0;
+    margin: 0;
+    background-color:#6fb7d9;
+}
+
+#main-list{
+    border: 2px solid black;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+main{
+    text-align: center;
+}
+
+#list{
+    text-align: left;
+}
+
+#input-text{
+    width: 350px;
+    height: 20px;
+}
+
+footer{
+    text-align: bottom;
+}

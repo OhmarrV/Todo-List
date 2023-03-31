@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar's To-do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main>    
+        <div id="todo-title">
+            <h1 id="to-do" name="title">To-do List</h1>
+        </div>
+        <div id="main-list">
+            <input id="input-text" type = "text" name = "list-input" placeholder = "Add to list" onkeypress = "enterPress()">
+            <button id="add-action" onclick="listAdd()">+</button>
+            <button id="remove-action" onclick="listRemove()">x</button>
+            <ul id="list"></ul>
+        </div>
+    </main>
+<script src="todoList.js"></script>
+</body>
+<footer><p>This page is brought to you by Omar Velazquez</p></footer>
+</html>
